@@ -120,8 +120,20 @@ for (let day = 1; day <= days; day++) {
 
     if (selectedPlan) {
 
-        activities =
-            selectedPlan[(day - 1) % selectedPlan.length];
+       if (day <= selectedPlan.length) {
+
+    activities = selectedPlan[day - 1];
+
+} else {
+
+    activities = [
+        `📍 Explore another popular place in ${destination}`,
+        `🎯 Enjoy more ${travelType.toLowerCase()} activities`,
+        `🍽️ Try another local food experience`,
+        `📸 Explore and capture new memories`
+    ];
+
+}
 
     } else {
 
