@@ -375,3 +375,33 @@ footer {
 .planner select:hover {
     border-color: #00a8ff;
 }
+.day-plan {
+    background: #f8fbff;
+    border-left: 5px solid #00a8ff;
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin: 18px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.day-plan:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.day-plan h3 {
+    color: #203a43;
+    margin-bottom: 12px;
+    font-size: 21px;
+}
+
+.day-plan ul {
+    padding-left: 20px;
+}
+
+.day-plan li {
+    margin: 9px 0;
+    color: #555;
+    font-size: 16px;
+}
