@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Trips</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🧳 My Trips</h1>
+        <p>Your saved travel plans</p>
+    </header>
+
+
+    <main>
+
+        <section class="planner">
+
+            <h2>Saved Trips</h2>
+
+            <div id="savedTrips"></div>
+
+            <br>
+
+            <button onclick="goHome()">
+                🏠 BACK TO HOME
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 Travel Itinerary Planner</p>
+    </footer>
+
+
+    <script>
+
+        function loadTrips() {
+
+            let savedTrips =
+                JSON.parse(localStorage.getItem("savedTrips")) || [];
+
+            let container =
+                document.getElementById("savedTrips");
+
+
+            if (savedTrips.length === 0) {
+
+                container.innerHTML =
+                    "<p>No saved trips yet. 🌍</p>";
+
+                return;
+            }
+
+
+            container.innerHTML = "";
+
+
+            savedTrips.forEach((trip, index) => {
+
+                container.innerHTML += `
+
+                    <div class="trip-card">
+
+                        <h3>🌍 ${trip.destination}</h3>
+
+                        <p>
+                            <b>Days:</b> ${trip.days}
+                        </p>
+
+                        <p>
+                            <b>Travellers:</b> ${trip.travellers}
+                        </p>
+
+                        <p>
+                            <b>Budget:</b> ₹${trip.budget}
+                        </p>
+
+                        <p>
+                            <b>Travel Type:</b> ${trip.travelType}
+                        </p>
+
+                        <p>
+                            <b>Accommodation:</b>
+                            ${trip.accommodation}
+                        </p>
+
+                        <button onclick="deleteTrip(${index})">
+                            🗑️ DELETE
+                        </button>
+
+                    </div>
+
+                    <hr>
+                `;
+            });
+        }
+
+
+        function deleteTrip(index) {
+
+            let savedTrips =
+                JSON.parse(localStorage.getItem("savedTrips")) || [];
+
+
+            savedTrips.splice(index, 1);
+
+
+            localStorage.setItem(
+                "savedTrips",
+                JSON.stringify(savedTrips)
+            );
+
+
+            loadTrips();
+        }
+
+
+        function goHome() {
+
+            window.location.href = "index.html";
+
+        }
+
+
+        loadTrips();
+
+    </script>
+
+</body>
+
+</html>
