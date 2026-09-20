@@ -124,13 +124,63 @@ function generateItinerary() {
     ]
 ],
 
-    "mumbai": [
-        ["🏨 Hotel check-in", "📍 Gateway of India", "⛴️ Marine Drive", "🍽️ Dinner at Colaba"],
-        ["🏛️ CSMVS Museum", "📸 Chhatrapati Shivaji Maharaj Terminus", "🛍️ Colaba Causeway", "🌅 Marine Drive sunset"],
-        ["🛕 Siddhivinayak Temple", "🌳 Hanging Gardens", "🍴 Local Mumbai lunch", "🌃 Bandra-Worli Sea Link"],
-        ["🏖️ Juhu Beach", "🛍️ Linking Road", "🍿 Street food", "🌆 Bandra sightseeing"],
-        ["☕ Breakfast", "🛍️ Last-minute shopping", "📸 Visit favourite place", "🚗 Departure"]
+"mumbai": [
+    [
+        "🏨 Hotel check-in",
+        "📍 Gateway of India",
+        "⛴️ Explore the waterfront",
+        "🏛️ Visit Chhatrapati Shivaji Maharaj Vastu Sangrahalaya",
+        "🌅 Sunset at Marine Drive"
     ],
+
+    [
+        "🏛️ Visit Chhatrapati Shivaji Maharaj Terminus",
+        "📸 Explore Fort area",
+        "🛍️ Shopping at Colaba Causeway",
+        "🍴 Try famous Mumbai street food",
+        "🌃 Evening walk at Marine Drive"
+    ],
+
+    [
+        "🛕 Visit Siddhivinayak Temple",
+        "🌳 Explore Hanging Gardens",
+        "🌊 Visit Girgaon Chowpatty",
+        "🍦 Try local snacks",
+        "🌆 Evening sightseeing"
+    ],
+
+    [
+        "🏖️ Visit Juhu Beach",
+        "🍽️ Try Juhu street food",
+        "📸 Explore Bandra",
+        "🌉 Drive across Bandra-Worli Sea Link",
+        "🌅 Sunset at Bandra Bandstand"
+    ],
+
+    [
+        "🏛️ Visit Dr. Bhau Daji Lad Museum",
+        "🌳 Relax at Jijamata Udyaan",
+        "🛍️ Explore local markets",
+        "☕ Visit a Mumbai café",
+        "🌃 Explore South Mumbai at night"
+    ],
+
+    [
+        "🎬 Explore Bollywood areas",
+        "📍 Visit Bandra streets",
+        "🛍️ Shopping at Linking Road",
+        "🍴 Have a traditional Mumbai lunch",
+        "🌅 Evening at Carter Road"
+    ],
+
+    [
+        "☀️ Relaxing breakfast",
+        "🛍️ Last-minute shopping",
+        "📸 Visit your favourite Mumbai location",
+        "🌊 Final visit to the sea",
+        "🚗 Check-out and departure"
+    ]
+],
 
     "manali": [
         ["🏨 Hotel check-in", "🌲 Mall Road", "🏞️ Hadimba Temple", "🌙 Evening walk"],
