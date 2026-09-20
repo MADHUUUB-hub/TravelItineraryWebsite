@@ -239,7 +239,7 @@ function generateItinerary() {
         "🚗 Check-out and departure"
     ]
 ],
-    ],
+    
 
     "jaipur": [
     [
