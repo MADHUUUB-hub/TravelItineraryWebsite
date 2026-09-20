@@ -66,14 +66,63 @@ function generateItinerary() {
 
 
     let plans = {
-
-    "goa": [
-        ["🏨 Hotel check-in", "📍 Baga Beach", "🌊 Beach activities", "🍽️ Dinner at a beach restaurant"],
-        ["🌴 Calangute Beach", "🏛️ Aguada Fort", "🛍️ Shopping at local markets", "🌅 Sunset at Anjuna Beach"],
-        ["🚤 Water sports", "🏖️ Candolim Beach", "🍴 Local Goan lunch", "🎶 Evening at a beach shack"],
-        ["⛪ Basilica of Bom Jesus", "🏛️ Old Goa sightseeing", "🛍️ Panjim market", "🌃 Evening walk at Miramar Beach"],
-        ["🌅 Sunrise at Vagator", "📸 Chapora Fort", "🍽️ Lunch", "🚗 Return / Departure"]
+"goa": [
+    [
+        "🏨 Hotel check-in",
+        "📍 Baga Beach",
+        "🌊 Relax and enjoy the beach",
+        "🌅 Watch the sunset at Baga",
+        "🍽️ Dinner at a beach shack"
     ],
+
+    [
+        "🏛️ Visit Aguada Fort",
+        "🏖️ Explore Candolim Beach",
+        "🍴 Have a Goan lunch",
+        "📸 Visit Sinquerim Beach",
+        "🌅 Sunset at Candolim"
+    ],
+
+    [
+        "⛪ Visit Basilica of Bom Jesus",
+        "⛪ Visit Se Cathedral",
+        "📍 Explore Old Goa",
+        "🚶 Walk around Panjim",
+        "🍽️ Try traditional Goan food"
+    ],
+
+    [
+        "🌴 Visit Anjuna Beach",
+        "🛍️ Explore Anjuna Flea Market",
+        "📸 Visit Vagator Beach",
+        "🏰 Explore Chapora Fort",
+        "🌅 Watch sunset from Chapora"
+    ],
+
+    [
+        "🚤 Enjoy water sports",
+        "🏖️ Visit Calangute Beach",
+        "🏄 Try parasailing / water activities",
+        "🍴 Beachside lunch",
+        "🌙 Evening beach walk"
+    ],
+
+    [
+        "🌿 Explore Dudhsagar Waterfalls",
+        "🚙 Enjoy a scenic journey",
+        "📸 Nature photography",
+        "🌳 Explore the surrounding forest area",
+        "🍽️ Relax and have dinner"
+    ],
+
+    [
+        "☀️ Relaxing breakfast",
+        "🛍️ Last-minute shopping",
+        "📸 Visit your favourite Goa location",
+        "🏖️ Spend time at the beach",
+        "🚗 Check-out and departure"
+    ]
+],
 
     "mumbai": [
         ["🏨 Hotel check-in", "📍 Gateway of India", "⛴️ Marine Drive", "🍽️ Dinner at Colaba"],
