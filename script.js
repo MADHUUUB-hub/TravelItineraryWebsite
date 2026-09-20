@@ -360,6 +360,9 @@ function generateItinerary() {
 
 
 let destinationKey = destination.toLowerCase().trim();
+    if (destinationKey === "bombay") {
+    destinationKey = "mumbai";
+}
 
 let selectedPlan = plans[destinationKey];
 
