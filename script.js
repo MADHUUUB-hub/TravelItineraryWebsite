@@ -135,15 +135,40 @@ for (let day = 1; day <= days; day++) {
 
 }
 
+   } else {
+
+    let extraDay = day - selectedPlan.length;
+
+    if (extraDay === 1) {
+
+        activities = [
+            `🏞️ Explore a hidden attraction in ${destination}`,
+            `📸 Visit a scenic viewpoint`,
+            `🍽️ Try a local speciality`,
+            `🌅 Enjoy the evening at a peaceful location`
+        ];
+
+    } else if (extraDay === 2) {
+
+        activities = [
+            `🚶 Explore the local streets of ${destination}`,
+            `🛍️ Visit a famous local market`,
+            `☕ Relax at a popular café`,
+            `🌃 Enjoy the city's nightlife`
+        ];
+
     } else {
 
         activities = [
-            `📍 Explore popular places in ${destination}`,
-            `🌄 Enjoy ${travelType.toLowerCase()} activities`,
-            `🍽️ Try local food`,
-            `📸 Capture memorable moments`
+            `🌄 Explore another nearby attraction`,
+            `🎯 Try a new ${travelType.toLowerCase()} activity`,
+            `🍴 Have a local food experience`,
+            `📸 Capture your final travel memories`
         ];
+
     }
+
+}
 
 
     itinerary += `
