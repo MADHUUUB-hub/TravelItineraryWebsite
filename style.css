@@ -338,3 +338,12 @@ footer {
     width: auto;
     padding: 10px 20px;
 }
+.trips-section > button {
+    display: block;
+    margin: 30px auto 0;
+    min-width: 200px;
+}
+
+.trips-section > button:hover {
+    transform: translateY(-2px);
+}
