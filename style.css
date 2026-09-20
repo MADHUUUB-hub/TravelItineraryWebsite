@@ -308,3 +308,33 @@ footer {
 .hero button:hover {
     transform: scale(1.05);
 }
+.trips-section {
+    max-width: 900px;
+}
+
+.trips-section h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.trip-card {
+    transition: 0.3s;
+}
+
+.trip-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.trip-card h3 {
+    font-size: 22px;
+}
+
+.trip-card p {
+    color: #555;
+}
+
+.trip-card button {
+    width: auto;
+    padding: 10px 20px;
+}
