@@ -182,12 +182,63 @@ function generateItinerary() {
     ]
 ],
 
-    "manali": [
-        ["🏨 Hotel check-in", "🌲 Mall Road", "🏞️ Hadimba Temple", "🌙 Evening walk"],
-        ["🏔️ Solang Valley", "🚠 Cable car / adventure activities", "🍴 Mountain lunch", "🔥 Evening at hotel"],
-        ["🌊 Beas River", "🌲 Van Vihar", "🛍️ Local shopping", "🍽️ Dinner"],
-        ["🏔️ Rohtang / Atal Tunnel area", "📸 Snow activities", "☕ Café visit", "🌅 Scenic sunset"],
-        ["☕ Breakfast", "🛍️ Last-minute shopping", "📸 Photography", "🚗 Departure"]
+   "manali": [
+    [
+        "🏨 Hotel check-in",
+        "🌲 Explore Mall Road",
+        "🛕 Visit Hadimba Temple",
+        "🌳 Walk through Van Vihar",
+        "🌙 Evening at Mall Road"
+    ],
+
+    [
+        "🏔️ Visit Solang Valley",
+        "🚠 Enjoy cable car / ropeway",
+        "🏂 Try adventure activities",
+        "🍴 Have lunch with mountain views",
+        "🌅 Return to Manali in the evening"
+    ],
+
+    [
+        "🌊 Visit Beas River",
+        "🌲 Explore nearby nature trails",
+        "📸 Photography at scenic viewpoints",
+        "☕ Visit a local café",
+        "🔥 Relaxing evening at the hotel"
+    ],
+
+    [
+        "🏔️ Visit Atal Tunnel",
+        "🏞️ Explore Sissu Valley",
+        "📸 Mountain photography",
+        "🍴 Enjoy local food",
+        "🌅 Watch the sunset"
+    ],
+
+    [
+        "🏛️ Visit Manu Temple",
+        "🌲 Explore Old Manali",
+        "🛍️ Shop for local handicrafts",
+        "☕ Café hopping",
+        "🌙 Evening walk through Old Manali"
+    ],
+
+    [
+        "🏔️ Explore Naggar",
+        "🏰 Visit Naggar Castle",
+        "🎨 Visit the Nicholas Roerich Art Gallery",
+        "🌄 Enjoy Himalayan views",
+        "🍽️ Dinner at a local restaurant"
+    ],
+
+    [
+        "☀️ Relaxing breakfast",
+        "🛍️ Last-minute shopping",
+        "📸 Visit your favourite mountain viewpoint",
+        "☕ Enjoy a final café visit",
+        "🚗 Check-out and departure"
+    ]
+],
     ],
 
     "jaipur": [
