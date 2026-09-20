@@ -242,20 +242,120 @@ function generateItinerary() {
     ],
 
     "jaipur": [
-        ["🏨 Hotel check-in", "🏰 Amber Fort", "🏛️ Jal Mahal", "🌃 Evening market"],
-        ["🏛️ City Palace", "🔭 Jantar Mantar", "🛍️ Johari Bazaar", "🍽️ Rajasthani dinner"],
-        ["🏯 Hawa Mahal", "🏛️ Albert Hall Museum", "🌳 Ram Niwas Garden", "🌆 Evening walk"],
-        ["🏰 Nahargarh Fort", "📸 City views", "🛍️ Local shopping", "🍴 Traditional food"],
-        ["☕ Breakfast", "🛍️ Souvenir shopping", "📸 Final sightseeing", "🚗 Departure"]
+    [
+        "🏨 Hotel check-in",
+        "🏰 Visit Amber Fort",
+        "💧 Stop at Jal Mahal",
+        "🛍️ Explore local markets",
+        "🍽️ Enjoy a traditional Rajasthani dinner"
     ],
 
-    "delhi": [
-        ["🏨 Hotel check-in", "🏛️ India Gate", "🏛️ Rashtrapati Bhavan area", "🌃 Evening walk"],
-        ["🕌 Red Fort", "🕌 Jama Masjid", "🛍️ Chandni Chowk", "🍽️ Local Delhi food"],
-        ["🪷 Lotus Temple", "🛕 Akshardham Temple", "🌳 Lodhi Garden", "🌆 Evening sightseeing"],
-        ["🏛️ Qutub Minar", "🏛️ Humayun's Tomb", "🛍️ Local market", "🍴 Dinner"],
-        ["☕ Breakfast", "🛍️ Last-minute shopping", "📸 Favourite place", "🚗 Departure"]
+    [
+        "🏛️ Visit City Palace",
+        "🔭 Explore Jantar Mantar",
+        "📸 Visit Hawa Mahal",
+        "🛍️ Shop at Johari Bazaar",
+        "🌃 Evening walk through the old city"
+    ],
+
+    [
+        "🏰 Visit Nahargarh Fort",
+        "📸 Enjoy panoramic Jaipur views",
+        "🌳 Relax at Ram Niwas Garden",
+        "🏛️ Visit Albert Hall Museum",
+        "🍴 Try local Rajasthani food"
+    ],
+
+    [
+        "🏯 Visit Jaigarh Fort",
+        "🏰 Explore its historic structures",
+        "📸 Photography at the fort",
+        "☕ Relax at a local café",
+        "🌅 Watch the evening sunset"
+    ],
+
+    [
+        "🛕 Visit Birla Mandir",
+        "🏛️ Explore the old city",
+        "🛍️ Shopping for handicrafts",
+        "🍽️ Try Dal Baati Churma",
+        "🌃 Evening market visit"
+    ],
+
+    [
+        "🌸 Explore Sisodia Rani Garden",
+        "🏛️ Visit Gaitore Ki Chhatriyan",
+        "📸 Photography",
+        "☕ Café break",
+        "🛍️ Local shopping"
+    ],
+
+    [
+        "☀️ Relaxing breakfast",
+        "🛍️ Last-minute shopping",
+        "📸 Visit your favourite Jaipur location",
+        "🍴 Have a final Rajasthani meal",
+        "🚗 Check-out and departure"
     ]
+],
+
+  "delhi": [
+    [
+        "🏨 Hotel check-in",
+        "🏛️ Visit India Gate",
+        "🏛️ Explore Kartavya Path",
+        "📸 Visit Rashtrapati Bhavan area",
+        "🌃 Evening walk"
+    ],
+
+    [
+        "🏰 Visit Red Fort",
+        "🕌 Visit Jama Masjid",
+        "🛍️ Explore Chandni Chowk",
+        "🍴 Try famous Delhi street food",
+        "🌃 Evening in Old Delhi"
+    ],
+
+    [
+        "🏛️ Visit Qutub Minar",
+        "🏛️ Explore Mehrauli Archaeological Park",
+        "📸 Photography",
+        "☕ Café break",
+        "🍽️ Dinner at a local restaurant"
+    ],
+
+    [
+        "🪷 Visit Lotus Temple",
+        "🛕 Visit Akshardham Temple",
+        "🌳 Relax at Lodhi Garden",
+        "📸 Explore nearby monuments",
+        "🌆 Evening sightseeing"
+    ],
+
+    [
+        "🏛️ Visit Humayun's Tomb",
+        "🏛️ Explore Purana Qila",
+        "🚣 Enjoy boating nearby",
+        "🍴 Try local Delhi food",
+        "🌃 Evening walk"
+    ],
+
+    [
+        "🛍️ Explore Dilli Haat",
+        "🎨 Shop for traditional handicrafts",
+        "🍽️ Try food from different regions",
+        "☕ Visit a local café",
+        "🌆 Explore Connaught Place"
+    ],
+
+    [
+        "☀️ Relaxing breakfast",
+        "🛍️ Last-minute shopping",
+        "📸 Visit your favourite Delhi location",
+        "🍴 Have a final Delhi meal",
+        "🚗 Check-out and departure"
+    ]
+],
 };
 
 
