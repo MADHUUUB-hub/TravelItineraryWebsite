@@ -347,3 +347,24 @@ footer {
 .trips-section > button:hover {
     transform: translateY(-2px);
 }
+.planner {
+    border-top: 5px solid #00a8ff;
+}
+
+.planner h2 {
+    font-size: 30px;
+}
+
+.planner label {
+    color: #203a43;
+}
+
+.planner input,
+.planner select {
+    transition: 0.3s;
+}
+
+.planner input:hover,
+.planner select:hover {
+    border-color: #00a8ff;
+}
